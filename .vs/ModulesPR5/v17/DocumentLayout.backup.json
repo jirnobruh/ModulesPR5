@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|c:\\users\\purpl\\riderprojects\\modulespr5\\modulespr5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{29FFE8AD-EA1A-4A5D-9010-CD600E355B87}|HashPasswords\\HashPasswords.csproj|c:\\users\\purpl\\riderprojects\\modulespr5\\hashpasswords\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{29FFE8AD-EA1A-4A5D-9010-CD600E355B87}|HashPasswords\\HashPasswords.csproj|solutionrelative:hashpasswords\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "HashPassword.cs",
+              "DocumentMoniker": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\HashPasswords\\HashPassword.cs",
+              "RelativeDocumentMoniker": "HashPasswords\\HashPassword.cs",
+              "ToolTip": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\HashPasswords\\HashPassword.cs",
+              "RelativeToolTip": "HashPasswords\\HashPassword.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:41:37.07Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Program.cs",
+              "RelativeDocumentMoniker": "ModulesPR5\\Program.cs",
+              "ToolTip": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Program.cs",
+              "RelativeToolTip": "ModulesPR5\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvxIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-30T13:28:15.168Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

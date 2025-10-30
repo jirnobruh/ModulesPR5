@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a697d3c32ac7468aba16cf80a6f88e1c" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.AgencyStaff" Width="1.5" PointX="5.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Applicants" Width="1.5" PointX="3" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ApplicantStatus" Width="1.5" PointX="0.75" PointY="4.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Auth" Width="1.5" PointX="0.75" PointY="7.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Chats" Width="1.5" PointX="5.25" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Companies" Width="1.5" PointX="3" PointY="11.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Documents" Width="1.5" PointX="3" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DocumentTypes" Width="1.5" PointX="0.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Messages" Width="1.5" PointX="10.5" PointY="8.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Placements" Width="1.5" PointX="7.5" PointY="9.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Responses" Width="1.5" PointX="7.5" PointY="13.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ResponseStatus" Width="1.5" PointX="5.25" PointY="20.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Resumes" Width="1.5" PointX="5.25" PointY="15.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Statistic" Width="1.5" PointX="5.75" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="7.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.Vacancies" Width="1.5" PointX="5.25" PointY="11.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.VacancyStatus" Width="1.5" PointX="3" PointY="16" IsExpanded="true" />
+        <AssociationConnector Association="Model.FK__Applicant__statu__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Chats__applicant__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Messages__sender__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Placement__appli__5812160E" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Resumes__applica__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Applicants_Auth" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK_Companies_Auth" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Chats__company_i__4BAC3F29" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Messages__chat_i__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Messages__sender__5070F446" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Vacancies__compa__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Documents__doc_t__5DCAEF64" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Placement__vacan__59063A47" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Responses__resum__534D60F1" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Responses__statu__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Responses__vacan__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FK__Vacancies__statu__47DBAE45" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
