@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|c:\\users\\purpl\\riderprojects\\modulespr5\\modulespr5\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|c:\\users\\purpl\\riderprojects\\modulespr5\\modulespr5\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|c:\\users\\purpl\\riderprojects\\modulespr5\\modulespr5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|c:\\users\\purpl\\riderprojects\\modulespr5\\modulespr5\\models\\model.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\modulespr5\\models\\model.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\models\\model.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|c:\\users\\purpl\\riderprojects\\modulespr5\\modulespr5\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\models\\model.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\modulespr5\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\helper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\modulespr5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F77349DE-2096-44F8-A7E6-057E26B88489}|ModulesPR5\\ModulesPR5.csproj|solutionrelative:modulespr5\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{29FFE8AD-EA1A-4A5D-9010-CD600E355B87}|HashPasswords\\HashPasswords.csproj|C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\hashpasswords\\hashpassword.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,37 +30,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Helper.cs",
               "DocumentMoniker": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Helper.cs",
               "RelativeDocumentMoniker": "ModulesPR5\\Helper.cs",
               "ToolTip": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Helper.cs",
               "RelativeToolTip": "ModulesPR5\\Helper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAASAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T14:25:50.9Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T14:25:50.9Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Model.Context.cs",
               "DocumentMoniker": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Models\\Model.Context.cs",
               "RelativeDocumentMoniker": "ModulesPR5\\Models\\Model.Context.cs",
               "ToolTip": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Models\\Model.Context.cs",
               "RelativeToolTip": "ModulesPR5\\Models\\Model.Context.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAUwBwAAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-30T14:24:24.747Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Model.edmx [Diagram1]",
               "DocumentMoniker": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Models\\Model.edmx",
               "RelativeDocumentMoniker": "ModulesPR5\\Models\\Model.edmx",
@@ -84,7 +83,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\purpl\\RiderProjects\\ModulesPR5\\ModulesPR5\\Program.cs",
               "RelativeDocumentMoniker": "ModulesPR5\\Program.cs",
@@ -92,8 +91,7 @@
               "RelativeToolTip": "ModulesPR5\\Program.cs",
               "ViewState": "AgIAAA8AAAAAAAAAAAAUwCoAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-30T13:28:15.168Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-10-30T13:28:15.168Z"
             }
           ]
         }
