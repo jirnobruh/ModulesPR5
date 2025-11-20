@@ -23,8 +23,10 @@ namespace ModulesPR5.Models
         public int id { get; set; }
         public string login { get; set; }
         public string password { get; set; }
+        public int role_id { get; set; }
     
         public virtual ICollection<Applicants> Applicants { get; set; }
+        public virtual Roles Roles { get; set; }
         public virtual ICollection<Companies> Companies { get; set; }
     }
 }

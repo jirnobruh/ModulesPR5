@@ -7,7 +7,7 @@ using ModulesPR5.Models;
 
 namespace ModulesPR5
 {
-    internal class Helper
+    public class Helper
     {
         private static cadrAgEntities _context;
 

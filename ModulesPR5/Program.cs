@@ -72,7 +72,8 @@ namespace ModulesPR5
                 Auth newAuth = new Auth
                 {
                     login = login,
-                    password = hashPassw
+                    password = hashPassw,
+                    role_id = 1
                 };
                 
                 int authId = Helper.CreateAuth(newAuth);
