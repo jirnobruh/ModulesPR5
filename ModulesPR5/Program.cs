@@ -67,7 +67,7 @@ namespace ModulesPR5
 
             try
             {
-                cadrAgEntities db = Helper.GetContext();
+                Entities db = Helper.GetContext();
                 
                 Auth newAuth = new Auth
                 {

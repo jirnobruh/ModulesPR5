@@ -9,13 +9,13 @@ namespace ModulesPR5
 {
     public class Helper
     {
-        private static cadrAgEntities _context;
+        private static Entities _context;
 
-        public static cadrAgEntities GetContext()
+        public static Entities GetContext()
         {
             if (_context == null)
             {
-                _context = new cadrAgEntities();
+                _context = new Entities();
             }
             return _context;
         }
