@@ -28,7 +28,7 @@ namespace ModulesPR5
         {
             var t = now.TimeOfDay;
             var workStart = new TimeSpan(10, 0, 0);
-            var workEnd = new TimeSpan(19, 0, 0);
+            var workEnd = new TimeSpan(20, 0, 0);
             return t >= workStart && t <= workEnd;
         }
 
