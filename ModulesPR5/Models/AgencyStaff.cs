@@ -19,5 +19,8 @@ namespace ModulesPR5.Models
         public string position { get; set; }
         public string email { get; set; }
         public string phone { get; set; }
+        public Nullable<int> auth_id { get; set; }
+    
+        public virtual Auth Auth { get; set; }
     }
 }

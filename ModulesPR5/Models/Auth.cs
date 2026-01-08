@@ -18,6 +18,7 @@ namespace ModulesPR5.Models
         {
             this.Applicants = new HashSet<Applicants>();
             this.Companies = new HashSet<Companies>();
+            this.AgencyStaff = new HashSet<AgencyStaff>();
         }
     
         public int id { get; set; }
@@ -28,5 +29,6 @@ namespace ModulesPR5.Models
         public virtual ICollection<Applicants> Applicants { get; set; }
         public virtual Roles Roles { get; set; }
         public virtual ICollection<Companies> Companies { get; set; }
+        public virtual ICollection<AgencyStaff> AgencyStaff { get; set; }
     }
 }
