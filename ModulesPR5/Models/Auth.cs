@@ -7,6 +7,8 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
+using System.ComponentModel.DataAnnotations;
+
 namespace ModulesPR5.Models
 {
     using System;
@@ -22,7 +24,11 @@ namespace ModulesPR5.Models
         }
     
         public int id { get; set; }
+        
+        [Required(ErrorMessage = "Логин обязателен")]
         public string login { get; set; }
+        
+        [Required(ErrorMessage = "Пароль обязателен")]
         public string password { get; set; }
         public int role_id { get; set; }
     

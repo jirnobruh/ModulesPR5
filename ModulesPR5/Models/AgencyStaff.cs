@@ -11,13 +11,24 @@ namespace ModulesPR5.Models
 {
     using System;
     using System.Collections.Generic;
+    using System.ComponentModel.DataAnnotations;
     
     public partial class AgencyStaff
     {
         public int id { get; set; }
+        
+        [Required(ErrorMessage = "ФИО обязательно")]
         public string full_name { get; set; }
+        
+        [Required(ErrorMessage = "Должность обязательна")]
         public string position { get; set; }
+        
+        [Required(ErrorMessage = "Email обязателен")]
+        [EmailAddress(ErrorMessage = "Некорректный email")]
         public string email { get; set; }
+        
+        [Required(ErrorMessage = "Телефон обязателен")]
+        [RegularExpression(@"^\+?\d{10,12}$", ErrorMessage = "Телефон должен содержать 10–12 цифр")]
         public string phone { get; set; }
         public Nullable<int> auth_id { get; set; }
     

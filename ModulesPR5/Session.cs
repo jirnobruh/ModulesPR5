@@ -28,7 +28,7 @@ namespace ModulesPR5
         {
             var t = now.TimeOfDay;
             var workStart = new TimeSpan(10, 0, 0);
-            var workEnd = new TimeSpan(20, 0, 0);
+            var workEnd = new TimeSpan(23, 55, 0);
             return t >= workStart && t <= workEnd;
         }
 
@@ -42,7 +42,7 @@ namespace ModulesPR5
             var dayStart = new TimeSpan(12, 1, 0);
             var dayEnd = new TimeSpan(17, 0, 0);
             var eveningStart = new TimeSpan(17, 1, 0);
-            var eveningEnd = new TimeSpan(19, 0, 0);
+            var eveningEnd = new TimeSpan(23, 0, 0);
 
             string part = null;
             if (t >= morningStart && t <= morningEnd) part = "Доброе утро";
