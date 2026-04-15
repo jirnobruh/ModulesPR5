@@ -24,6 +24,11 @@ namespace ModulesPR5
     {
         public static UserSession CurrentUser { get; set; }
 
+        /// <summary>
+        /// Проверяет, входит ли переданное время в допустимый рабочий интервал для доступа к системе.
+        /// </summary>
+        /// <param name="now">Текущие дата и время, по которым выполняется проверка.</param>
+        /// <returns>true, если время находится в рабочем интервале; иначе false.</returns>
         public static bool IsWithinWorkHours(DateTime now)
         {
             var t = now.TimeOfDay;
@@ -32,6 +37,11 @@ namespace ModulesPR5
             return t >= workStart && t <= workEnd;
         }
 
+        /// <summary>
+        /// Формирует приветствие для текущего пользователя в зависимости от времени суток.
+        /// </summary>
+        /// <param name="now">Текущие дата и время для определения подходящего приветствия.</param>
+        /// <returns>Строка приветствия с ФИО пользователя или пустая строка, если приветствие не применяется.</returns>
         public static string GetGreeting(DateTime now)
         {
             if (CurrentUser == null) return string.Empty;
